@@ -1,101 +1,368 @@
-# AI Component Generator
+# 🚀 AI Component Generator
 
-An interactive, premium front-end prototyping platform built with **React** and **Tailwind CSS**, powered by the official **Google Gen AI SDK**. The application enables developers to instantly generate clean, production-ready, and fully responsive UI components from natural language descriptions across various frontend styling configurations.
+An AI-powered web application that generates modern, responsive, and production-ready UI components from natural language prompts using **Google Gemini AI**.
 
----
-
-## 🔗 Live Deployment & Showcases
-
-* **Live Demo Link**: [https://github.com/SafiyaFatima08/AI-component-generator](https://github.com/SafiyaFatima08/AI-component-generator)
-* **Production Workspace URL**: `http://localhost:5173` (Local Development)
+The application allows users to describe the component they want, select their preferred frontend framework, and instantly receive AI-generated code with a live preview. It also provides a built-in code editor, fullscreen preview, AI configuration settings, generation history, and customizable API integration for a seamless development experience.
 
 ---
 
-## 🚀 Features
+# ✨ Features
 
-### Core Generation Workspace (`Home.jsx`)
-* **AI-Driven Code Generation**: Utilizes high-efficiency Gemini architectures via the official `@google/genai` SDK library.
-* **Dual-Pane Engineering Sandbox**: Toggle seamlessly between a production-grade **Monaco Code Editor** (`vs-dark` mode) and an isolated, hot-reloaded **Live Preview** `iframe` sandbox environment.
-* **Dynamic Framework Swapping**: Out-of-the-box styling presets managed via custom-styled dark interfaces (`react-select`):
-  * HTML + CSS
-  * HTML + Tailwind CSS
-  * HTML + Bootstrap
-  * HTML + CSS + JS
-  * HTML + Tailwind CSS + Bootstrap
-* **Integrated Action Utilities**: Single-click actions to copy code directly to the clipboard (`react-toastify` notifications) or export the generated element as a physical text payload file (`GenUI-Code.html`).
-* **Expanded Preview Modal**: Implements an expansive, full-screen viewport layout layer to test components at native resolutions.
+## 🤖 AI-Powered Component Generation
 
-### Account Control Center (`ProfileDropdown.jsx`)
-* **Glassmorphic Control Center**: An interactive dashboard overlay panel featuring slide-in entry animations, click-outside backdrop event capturing, and session termination hooks.
-* **API Resource Analytics Tracker**: Dynamic resource consumption monitor visualizing real-time free-tier request thresholds.
-* **Interactive Component Vault**: Queries localized storage indexes (`genui_history`) to display an asset history log, enabling instantaneous restoration of cached layout configurations.
-* **Custom Credential Sandbox**: A secure token injection override portal allowing developers to supply their personal `user_gemini_key` to avoid global engine rate limits.
-
-### Advanced Engine Workspace Config (`SettingsModal.jsx`)
-* **Granular LLM Swapping**: Hot-swap between targeted AI models at runtime:
-  * `gemini-3-flash-preview` *(Optimized Speed & Rapid Prototyping)*
-  * `gemini-1.5-pro` *(Complex Structural Layout Analysis)*
-  * `gemini-1.5-flash` *(Minimal Processing Latency)*
-* **Hyperparameter Simulator**: Adjust the AI Novelty Factor (Temperature Coefficient) from `0.1` (deterministic/accurate boilerplate) up to `1.0` (highly creative/animated responsive layouts).
-* **Code Synthesis Pre-Processor Directives**: Boolean execution filters to control code styling before compiling prompts:
-  * **Inject Theme Variants**: Forces deep validation blocks mapping inline `dark:` utilities into the DOM markup.
-  * **Inline Documentation Strings**: Embeds clean, component-level structural breakdown comments directly into the source code.
-* **Memory Evacuation Safeguard**: Factory-reset utility that wipes out volatile local storage data (settings, custom tokens, and historical caches) upon deep confirmation check validation.
+- Generate UI components from natural language prompts
+- Powered by Google Gemini AI
+- Fast and intelligent code generation
+- Clean and readable output
+- Responsive and modern UI designs
+- Optimized prompts for better results
 
 ---
 
-## 🛠️ Tech Stack
+## 🎨 Multiple Framework Support
 
-* **Core UI Ecosystem**: React.js (Hooks, Context lifecycle mapping)
-* **Styling Engine**: Tailwind CSS (Synchronized document-level dark mode classes)
-* **AI Orchestration**: Official `@google/genai` SDK
-* **Code Surface Renderer**: `@monaco-editor/react` (Embedded VS Code core engine)
-* **Icon Framework Suite**: `react-icons` (`fi`, `bs`, `hi`, `io5`, `pi`, `im`, `md`)
-* **Alerts & Loading**: `react-toastify` (Toasts engine) & `react-spinners` (`ClipLoader`)
+Generate components using:
 
----
-
-## 💾 State Persistence Matrix (Local Cache Schema)
-
-The workspace handles client-side caching mechanisms cleanly mapped using standard browser local vectors:
-
-| Storage Key | Target Element Type | Operational Defaults | System Intent |
-| :--- | :--- | :--- | :--- |
-| `genui_model` | String Select | `gemini-3-flash-preview` | Declares the active target engine model variant. |
-| `genui_temperature` | Floating-point Number | `0.7` | Controls hyperparameter creative freedom variance. |
-| `genui_opt_dark` | Evaluated Boolean | `true` | Dictates generation rules for responsive dark mode utility classes. |
-| `genui_opt_comments` | Evaluated Boolean | `false` | Sets execution flags for inline code commentary strings. |
-| `user_gemini_key` | Encrypted String Cache | *Optional Override* | Customer developer token to bypass request throttling. |
-| `genui_history` | JSON Array | `[]` | Internal data cache for the Interactive Component Vault. |
+- HTML + CSS
+- HTML + Tailwind CSS
+- HTML + Bootstrap
+- HTML + CSS + JavaScript
+- HTML + Tailwind CSS + Bootstrap
 
 ---
 
-## 📦 Installation & Setup Instructions
+## 💻 Built-in Code Editor
 
-### 1. Clone the Repository & Navigate
-Run the following commands in your terminal to grab the local project stack:
+- Monaco Editor Integration
+- Syntax Highlighting
+- Read-only Generated Code
+- Professional Coding Experience
+- Dark Theme Editor
+
+---
+
+## 👀 Live Preview
+
+- Real-time Preview
+- Instant Rendering
+- Refresh Preview
+- Fullscreen Preview Mode
+- iframe-based Rendering
+
+---
+
+## 📋 Code Utilities
+
+- Copy Generated Code
+- Download Generated HTML
+- Export Components
+- Toast Notifications
+- Loading Animation
+
+---
+
+## 👤 Personal Dashboard
+
+- Component Generation Statistics
+- Generation History
+- Saved Component Vault
+- API Usage Monitor
+- Developer Status Panel
+
+---
+
+## 🔐 API Configuration
+
+- Custom Gemini API Key Support
+- Save Personal API Key
+- Reset API Configuration
+- Secure Local Storage Integration
+
+---
+
+## ⚙️ AI Generation Settings
+
+Customize AI generation using:
+
+- AI Model Selection
+- Temperature (Creativity) Control
+- Dark Mode Output
+- Inline Documentation Option
+
+---
+
+## 🌙 Theme Support
+
+- Dark Mode
+- Light Mode
+- Smooth Theme Switching
+- Modern Glassmorphism UI
+
+---
+
+## 💾 Local Storage Support
+
+The application stores:
+
+- User Preferences
+- AI Model
+- Temperature
+- Generated History
+- API Keys
+- Theme Preferences
+- Output Configuration
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- React Router DOM
+
+### Styling
+
+- Tailwind CSS
+- CSS3
+
+### Artificial Intelligence
+
+- Google Gemini AI API
+
+### Editor
+
+- Monaco Editor
+
+### Libraries
+
+- React Select
+- React Icons
+- React Toastify
+- React Spinners
+
+### Browser APIs
+
+- Clipboard API
+- Blob API
+- Local Storage API
+- iframe Preview
+
+---
+
+# 📂 Project Structure
+
+```text
+AI-Component-Generator
+│
+├── public
+│
+├── src
+│   │
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── ProfileDropdown.jsx
+│   │   └── SettingsModal.jsx
+│   │
+│   ├── pages
+│   │   ├── Home.jsx
+│   │   └── NoPage.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
+
 ```bash
-git clone [https://github.com/SafiyaFatima08/AI-component-generator.git](https://github.com/SafiyaFatima08/AI-component-generator.git)
-cd AI-component-generator
+git clone https://github.com/yourusername/ai-component-generator.git
+```
 
-### 2. Install Dependencies
-Execute layout package synchronization via your node package manager:
+## Navigate to the Project
 
-Bash
+```bash
+cd ai-component-generator
+```
+
+## Install Dependencies
+
+```bash
 npm install
+```
 
-### 3. Environment Key Setup
-Create a .env file in the root structure of your directory and insert your Gemini developer parameters:
+## Start Development Server
 
-Code snippet
-VITE_GEMINI_API_KEY= "AIzaSyCdXB_-QOGeIcSTVOqwoduTa4UNJ5m2XLM"
-
-### 4. Boot Up the Local Development Cluster
-Spin up the internal bundler ecosystem using Vite:
-
-Bash
+```bash
 npm run dev
+```
 
-## 👤 Author
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+Use the API key inside your application:
+
+```javascript
+const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY,
+});
+```
+
+> **Note:** Never commit your API key to GitHub. Always use environment variables.
+
+---
+
+# 🚀 Application Workflow
+
+1. Open the application.
+2. Select your preferred frontend framework.
+3. Describe the UI component.
+4. Click the **Generate** button.
+5. Gemini AI generates the component.
+6. View the generated code.
+7. Preview the component live.
+8. Copy or download the generated code.
+
+---
+
+# 🤖 Supported AI Models
+
+- Gemini 3 Flash Preview
+- Gemini 1.5 Pro
+- Gemini 1.5 Flash
+
+---
+
+# 💡 Main Functionalities
+
+- AI Code Generation
+- Framework Selection
+- Monaco Code Editor
+- Live Preview
+- Fullscreen Preview
+- Copy Code
+- Download HTML
+- API Configuration
+- Personal Dashboard
+- Saved Component Vault
+- Generation History
+- Toast Notifications
+- Theme Switching
+- Responsive Interface
+
+---
+
+# 💾 Local Storage
+
+The application uses Local Storage to store:
+
+- User API Key
+- Selected AI Model
+- Temperature Configuration
+- Theme Preferences
+- Generated Components
+- Generation History
+- Output Preferences
+
+---
+
+# 🎨 UI Highlights
+
+- Modern Dashboard
+- Glassmorphism Design
+- Gradient Buttons
+- Responsive Layout
+- Smooth Animations
+- Clean Typography
+- Interactive Modals
+- Beautiful Icons
+- Professional User Experience
+
+---
+
+# 🔮 Future Improvements
+
+- React Component Generation
+- Next.js Support
+- Vue.js Support
+- Angular Support
+- Export as ZIP
+- Component Library
+- User Authentication
+- Cloud Storage
+- Component Templates
+- AI Chat Assistant
+- Multiple Language Support
+- Project Sharing
+- Favorite Components
+- Code Formatting
+- Version History
+
+---
+
+# 👩‍💻 Author
 
 **Safiya Fatima**
+
+B.Tech Computer Science Student
+
+GitHub
+
+https://github.com/yourusername
+
+---
+
+# 🙏 Acknowledgements
+
+This project was built using:
+
+- Google Gemini AI
+- React.js
+- Vite
+- Tailwind CSS
+- Monaco Editor
+- React Router DOM
+- React Select
+- React Icons
+- React Toastify
+- React Spinners
