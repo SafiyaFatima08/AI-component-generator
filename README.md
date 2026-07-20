@@ -237,7 +237,7 @@ npm run preview
 Create a `.env` file in the project root.
 
 ```env
-VITE_GEMINI_API_KEY="AIzaSyCdXB_-QOGeIcSTVOqwoduTa4UNJ5m2XLM" 
+VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY 
 ```
 
 Use the API key inside your application:
