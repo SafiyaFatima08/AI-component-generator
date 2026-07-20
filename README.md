@@ -237,7 +237,7 @@ npm run preview
 Create a `.env` file in the project root.
 
 ```env
-VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+VITE_GEMINI_API_KEY="AIzaSyCdXB_-QOGeIcSTVOqwoduTa4UNJ5m2XLM" 
 ```
 
 Use the API key inside your application:
@@ -317,26 +317,6 @@ The application uses Local Storage to store:
 - Interactive Modals
 - Beautiful Icons
 - Professional User Experience
-
----
-
-# 🔮 Future Improvements
-
-- React Component Generation
-- Next.js Support
-- Vue.js Support
-- Angular Support
-- Export as ZIP
-- Component Library
-- User Authentication
-- Cloud Storage
-- Component Templates
-- AI Chat Assistant
-- Multiple Language Support
-- Project Sharing
-- Favorite Components
-- Code Formatting
-- Version History
 
 ---
 
