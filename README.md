@@ -197,7 +197,7 @@ AI-Component-Generator
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/SafiyaFatima08/ai-component-generator.git
+https://github.com/SafiyaFatima08/AI-component-generator.git
 ```
 
 ## Navigate to the Project
