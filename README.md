@@ -78,23 +78,24 @@ Run the following commands in your terminal to grab the local project stack:
 git clone [https://github.com/SafiyaFatima08/AI-component-generator.git](https://github.com/SafiyaFatima08/AI-component-generator.git)
 cd AI-component-generator
 
-2. Install Dependencies
+### 2. Install Dependencies
 Execute layout package synchronization via your node package manager:
 
 Bash
 npm install
 
-3. Environment Key Setup
+### 3. Environment Key Setup
 Create a .env file in the root structure of your directory and insert your Gemini developer parameters:
 
 Code snippet
-VITE_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+VITE_GEMINI_API_KEY= "AIzaSyCdXB_-QOGeIcSTVOqwoduTa4UNJ5m2XLM"
 
-4. Boot Up the Local Development Cluster
+### 4. Boot Up the Local Development Cluster
 Spin up the internal bundler ecosystem using Vite:
 
 Bash
 npm run dev
 
-👤 Author
-Safiya Fatima
+## 👤 Author
+
+**Safiya Fatima**
